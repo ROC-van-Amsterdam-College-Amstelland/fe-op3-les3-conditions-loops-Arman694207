@@ -1,11 +1,14 @@
+
 //javascript code
-function check() {
-    var saldo = document.getElementById("saldo").value
+function check(){
+    var saldo= document.getElementById("saldo").value;
 
-if(saldo >= 25){
-    document.getElementById("tekst").innerHTML ="je hebt voldoende saldo om 25 euro op te nemen"
-}else{
-    document.getElementById("tekst").innerHTML="Helaas, u heeft te weinig geld!"
+    if(saldo>=25){
+        document.getElementById("tekst").innerHTML = "Je hebt voldoende saldo om € 25 op te nemen." ;
+    }else{
+        document.getElementById("tekst").innerHTML = "Sorry, je hebt te weinig saldo!";
+    }
+
+
 }
 
-}
